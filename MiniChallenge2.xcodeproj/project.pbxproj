@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2DE5A219210C28009B2F4A /* Ajuste.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2DE5A119210C28009B2F4A /* Ajuste.m */; };
+		1E2DE5A419224263009B2F4A /* erro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2DE5A319224263009B2F4A /* erro.mp3 */; };
+		1E2DE5A619224309009B2F4A /* kids.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2DE5A519224309009B2F4A /* kids.mp3 */; };
+		1E2DE5A819224754009B2F4A /* aplausos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E2DE5A719224754009B2F4A /* aplausos.mp3 */; };
+		1EC4BFDA1920E6D600D76098 /* planetaAgua.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC4BFD91920E6D600D76098 /* planetaAgua.png */; };
+		1EC4BFDF1920E6E600D76098 /* planetaBiodivesidade.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC4BFDB1920E6E600D76098 /* planetaBiodivesidade.png */; };
+		1EC4BFE01920E6E600D76098 /* planetaContinente.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC4BFDC1920E6E600D76098 /* planetaContinente.png */; };
+		1EC4BFE11920E6E600D76098 /* planetaHumano3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC4BFDD1920E6E600D76098 /* planetaHumano3.png */; };
+		1EC4BFE21920E6E600D76098 /* planetaSustentavel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC4BFDE1920E6E600D76098 /* planetaSustentavel2.png */; };
+		1EC4BFE41920E71F00D76098 /* mundoAquecimento.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC4BFE31920E71F00D76098 /* mundoAquecimento.png */; };
+		1EE40F7B1907D6BB00D69BD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE40F7A1907D6BB00D69BD4 /* Foundation.framework */; };
+		1EE40F7D1907D6BB00D69BD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE40F7C1907D6BB00D69BD4 /* CoreGraphics.framework */; };
+		1EE40F7F1907D6BB00D69BD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE40F7E1907D6BB00D69BD4 /* UIKit.framework */; };
+		1EE40F811907D6BB00D69BD4 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE40F801907D6BB00D69BD4 /* SpriteKit.framework */; };
+		1EE40F891907D6BB00D69BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE40F881907D6BB00D69BD4 /* main.m */; };
+		1EE40F8D1907D6BB00D69BD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE40F8C1907D6BB00D69BD4 /* AppDelegate.m */; };
+		1EE40F931907D6BB00D69BD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE40F921907D6BB00D69BD4 /* ViewController.m */; };
+		1EE40F961907D6BB00D69BD4 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE40F951907D6BB00D69BD4 /* MyScene.m */; };
+		1EE40F9A1907D6BB00D69BD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE40F991907D6BB00D69BD4 /* Images.xcassets */; };
+		1EE40FA11907D6BB00D69BD4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE40FA01907D6BB00D69BD4 /* XCTest.framework */; };
+		1EE40FA21907D6BB00D69BD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE40F7A1907D6BB00D69BD4 /* Foundation.framework */; };
+		1EE40FA31907D6BB00D69BD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE40F7E1907D6BB00D69BD4 /* UIKit.framework */; };
+		4055F273192F8B3B00D79721 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4055F271192F8B3B00D79721 /* Localizable.strings */; };
+		4059A1441917A9FD000EC1B1 /* estanteTrofeus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A1431917A9FD000EC1B1 /* estanteTrofeus.png */; };
+		4059A1461917AA29000EC1B1 /* voltar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4059A1451917AA29000EC1B1 /* voltar.gif */; };
+		4059A14F1917AAE6000EC1B1 /* trofeuAgua.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A1471917AAE6000EC1B1 /* trofeuAgua.png */; };
+		4059A1501917AAE6000EC1B1 /* trofeuAquecimentoGlobal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A1481917AAE6000EC1B1 /* trofeuAquecimentoGlobal.png */; };
+		4059A1511917AAE6000EC1B1 /* trofeuAstronomia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A1491917AAE6000EC1B1 /* trofeuAstronomia.png */; };
+		4059A1521917AAE6000EC1B1 /* trofeuBiodiversidade.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A14A1917AAE6000EC1B1 /* trofeuBiodiversidade.png */; };
+		4059A1531917AAE6000EC1B1 /* trofeuContinentes.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A14B1917AAE6000EC1B1 /* trofeuContinentes.png */; };
+		4059A1541917AAE6000EC1B1 /* trofeuCorpoHumano.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A14C1917AAE6000EC1B1 /* trofeuCorpoHumano.png */; };
+		4059A1551917AAE6000EC1B1 /* trofeuEnergiaSustentavel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A14D1917AAE6000EC1B1 /* trofeuEnergiaSustentavel.png */; };
+		4059A1561917AAE6000EC1B1 /* trofeuPlanta.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A14E1917AAE6000EC1B1 /* trofeuPlanta.png */; };
+		4059A1601917D96D000EC1B1 /* fundoPerguntas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4059A15F1917D96D000EC1B1 /* fundoPerguntas.png */; };
+		406249F0191599C90029EB63 /* CenaQuiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 406249EF191599C90029EB63 /* CenaQuiz.m */; };
+		40A10CEF1914641800C5DF1E /* CenaMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A10CEE1914641800C5DF1E /* CenaMenu.m */; };
+		40A10D0519149CC300C5DF1E /* CenaTrofeus.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A10D0419149CC300C5DF1E /* CenaTrofeus.m */; };
+		40AC38251924EA4800D1E772 /* opcaoImageEscolhida.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AC38231924EA4800D1E772 /* opcaoImageEscolhida.png */; };
+		40AC382B192690F300D1E772 /* opcaoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AC382A192690F300D1E772 /* opcaoImage.png */; };
+		40AC38AF192B8F9400D1E772 /* opcaoImageWrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AC38AE192B8F9400D1E772 /* opcaoImageWrong.png */; };
+		40BEAB5D19192D22006DB4AB /* salaTrofeus.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB5C19192D22006DB4AB /* salaTrofeus.png */; };
+		40BEAB6B191D1D2C006DB4AB /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB6A191D1D2C006DB4AB /* avatar.png */; };
+		40BEAB6D191D1D31006DB4AB /* fundoMapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB6C191D1D31006DB4AB /* fundoMapa.png */; };
+		40BEAB7019210158006DB4AB /* botaoRadioSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB6E19210158006DB4AB /* botaoRadioSelect.png */; };
+		40BEAB7119210158006DB4AB /* opcaoRadio.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB6F19210158006DB4AB /* opcaoRadio.png */; };
+		40BEAB77192101C7006DB4AB /* botaoAjustes.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB74192101C7006DB4AB /* botaoAjustes.png */; };
+		40BEAB78192101C7006DB4AB /* botaoJogar.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB75192101C7006DB4AB /* botaoJogar.png */; };
+		40BEAB79192101C7006DB4AB /* botaoTrofeus.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB76192101C7006DB4AB /* botaoTrofeus.png */; };
+		40BEAB7C192117C7006DB4AB /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB7A192117C7006DB4AB /* star.png */; };
+		40BEAB8219224D82006DB4AB /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB8019224D82006DB4AB /* audio.png */; };
+		40BEAB8319224D82006DB4AB /* audioOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB8119224D82006DB4AB /* audioOff.png */; };
+		40BEAB8519224F2E006DB4AB /* fundoAjustes.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB8419224F2E006DB4AB /* fundoAjustes.png */; };
+		40BEAB8719224FEA006DB4AB /* audioOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB8619224FEA006DB4AB /* audioOff.png */; };
+		40BEAB8919225CFE006DB4AB /* planetaAstronomia.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB8819225CFE006DB4AB /* planetaAstronomia.png */; };
+		40BEAB9119238A99006DB4AB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB9019238A99006DB4AB /* logo.png */; };
+		40BEAB9319238A9E006DB4AB /* starPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB9219238A9E006DB4AB /* starPoint.png */; };
+		40BEAB951923AB3A006DB4AB /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEAB941923AB3A006DB4AB /* 10.png */; };
+		AC0B6D8419210D4A000B8BE4 /* Trofeus.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0B6D8319210D4A000B8BE4 /* Trofeus.m */; };
+		AC0B6D8A19223CAB000B8BE4 /* pontos.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D8919223CAB000B8BE4 /* pontos.png */; };
+		AC0B6D8E1922403D000B8BE4 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D8D1922403D000B8BE4 /* 0.png */; };
+		AC0B6D91192241AA000B8BE4 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D90192241AA000B8BE4 /* 1.png */; };
+		AC0B6D93192241AF000B8BE4 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D92192241AF000B8BE4 /* 2.png */; };
+		AC0B6D97192241B7000B8BE4 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D94192241B7000B8BE4 /* 3.png */; };
+		AC0B6D98192241B7000B8BE4 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D95192241B7000B8BE4 /* 4.png */; };
+		AC0B6D99192241B7000B8BE4 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D96192241B7000B8BE4 /* 5.png */; };
+		AC0B6D9E1922423C000B8BE4 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D9A1922423C000B8BE4 /* 6.png */; };
+		AC0B6D9F1922423C000B8BE4 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D9B1922423C000B8BE4 /* 7.png */; };
+		AC0B6DA01922423C000B8BE4 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D9C1922423C000B8BE4 /* 8.png */; };
+		AC0B6DA11922423C000B8BE4 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6D9D1922423C000B8BE4 /* 9.png */; };
+		AC0B6DA3192242C9000B8BE4 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		AC0B6DAB19238C13000B8BE4 /* textoAquecimentoGlobal.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DAA19238C13000B8BE4 /* textoAquecimentoGlobal.png */; };
+		AC0B6DAD19238CDD000B8BE4 /* textoCorpoHumano.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DAC19238CDD000B8BE4 /* textoCorpoHumano.png */; };
+		AC0B6DB119238E38000B8BE4 /* textoContinente.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DB019238E38000B8BE4 /* textoContinente.png */; };
+		AC0B6DB319238EFB000B8BE4 /* textoSustentabilidade.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DB219238EFB000B8BE4 /* textoSustentabilidade.png */; };
+		AC0B6DB519238F50000B8BE4 /* textoBiodiversidade.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DB419238F50000B8BE4 /* textoBiodiversidade.png */; };
+		AC0B6DB719238F80000B8BE4 /* textoAstronomia.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DB619238F80000B8BE4 /* textoAstronomia.png */; };
+		AC0B6DB919238FD4000B8BE4 /* textoPlanta.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DB819238FD4000B8BE4 /* textoPlanta.png */; };
+		AC0B6DBB1923902B000B8BE4 /* textoAgua.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DBA1923902B000B8BE4 /* textoAgua.png */; };
+		AC0B6DC119239275000B8BE4 /* fundoMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B6DC019239275000B8BE4 /* fundoMenu.png */; };
+		AC27B908192394CC00BC12E2 /* voltar.png in Resources */ = {isa = PBXBuildFile; fileRef = AC27B907192394CC00BC12E2 /* voltar.png */; };
+		AC27B90A19239A6B00BC12E2 /* escolhaMundo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC27B90919239A6B00BC12E2 /* escolhaMundo.png */; };
+		AC27B90F1923A24B00BC12E2 /* SingleTrofeus.m in Sources */ = {isa = PBXBuildFile; fileRef = AC27B90E1923A24B00BC12E2 /* SingleTrofeus.m */; };
+		AC27B9141923B05A00BC12E2 /* tema.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1EC4BFE5192104F600D76098 /* tema.mp3 */; };
+		AC5E8EED1917AEBD007F78C6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5E8EEC1917AEBD007F78C6 /* CoreData.framework */; };
+		AC5E8EF01917B247007F78C6 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8EEE1917B247007F78C6 /* CoreData.xcdatamodeld */; };
+		AC5E8EF31917B6BF007F78C6 /* Perguntas.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8EF21917B6BF007F78C6 /* Perguntas.m */; };
+		AC5E8EF61918FD20007F78C6 /* planetaPlanta.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5E8EF51918FD20007F78C6 /* planetaPlanta.png */; };
+		AC5E8EF819190142007F78C6 /* fundo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5E8EF719190142007F78C6 /* fundo.png */; };
+		ACF69021191BAF090052D3AE /* Certo.png in Resources */ = {isa = PBXBuildFile; fileRef = ACF69020191BAF090052D3AE /* Certo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EE40FA41907D6BB00D69BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EE40F6F1907D6BB00D69BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EE40F761907D6BB00D69BD4;
+			remoteInfo = MiniChallenge2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2DE5A019210C28009B2F4A /* Ajuste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ajuste.h; sourceTree = "<group>"; };
+		1E2DE5A119210C28009B2F4A /* Ajuste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ajuste.m; sourceTree = "<group>"; };
+		1E2DE5A319224263009B2F4A /* erro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = erro.mp3; sourceTree = "<group>"; };
+		1E2DE5A519224309009B2F4A /* kids.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kids.mp3; sourceTree = "<group>"; };
+		1E2DE5A719224754009B2F4A /* aplausos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aplausos.mp3; sourceTree = "<group>"; };
+		1EC4BFD91920E6D600D76098 /* planetaAgua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetaAgua.png; sourceTree = "<group>"; };
+		1EC4BFDB1920E6E600D76098 /* planetaBiodivesidade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetaBiodivesidade.png; sourceTree = "<group>"; };
+		1EC4BFDC1920E6E600D76098 /* planetaContinente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetaContinente.png; sourceTree = "<group>"; };
+		1EC4BFDD1920E6E600D76098 /* planetaHumano3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetaHumano3.png; sourceTree = "<group>"; };
+		1EC4BFDE1920E6E600D76098 /* planetaSustentavel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetaSustentavel2.png; sourceTree = "<group>"; };
+		1EC4BFE31920E71F00D76098 /* mundoAquecimento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mundoAquecimento.png; sourceTree = "<group>"; };
+		1EC4BFE5192104F600D76098 /* tema.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tema.mp3; sourceTree = "<group>"; };
+		1EE40F771907D6BB00D69BD4 /* MiniChallenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE40F7A1907D6BB00D69BD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1EE40F7C1907D6BB00D69BD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EE40F7E1907D6BB00D69BD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1EE40F801907D6BB00D69BD4 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1EE40F841907D6BB00D69BD4 /* MiniChallenge2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiniChallenge2-Info.plist"; sourceTree = "<group>"; };
+		1EE40F881907D6BB00D69BD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE40F8A1907D6BB00D69BD4 /* MiniChallenge2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiniChallenge2-Prefix.pch"; sourceTree = "<group>"; };
+		1EE40F8B1907D6BB00D69BD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EE40F8C1907D6BB00D69BD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EE40F911907D6BB00D69BD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EE40F921907D6BB00D69BD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EE40F941907D6BB00D69BD4 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		1EE40F951907D6BB00D69BD4 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		1EE40F991907D6BB00D69BD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EE40F9F1907D6BB00D69BD4 /* MiniChallenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChallenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE40FA01907D6BB00D69BD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4055F272192F8B3B00D79721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MiniChallenge2/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4055F274192F8B4C00D79721 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4059A1431917A9FD000EC1B1 /* estanteTrofeus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = estanteTrofeus.png; sourceTree = "<group>"; };
+		4059A1451917AA29000EC1B1 /* voltar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = voltar.gif; sourceTree = "<group>"; };
+		4059A1471917AAE6000EC1B1 /* trofeuAgua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeuAgua.png; sourceTree = "<group>"; };
+		4059A1481917AAE6000EC1B1 /* trofeuAquecimentoGlobal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeuAquecimentoGlobal.png; sourceTree = "<group>"; };
+		4059A1491917AAE6000EC1B1 /* trofeuAstronomia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeuAstronomia.png; sourceTree = "<group>"; };
+		4059A14A1917AAE6000EC1B1 /* trofeuBiodiversidade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeuBiodiversidade.png; sourceTree = "<group>"; };
+		4059A14B1917AAE6000EC1B1 /* trofeuContinentes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeuContinentes.png; sourceTree = "<group>"; };
+		4059A14C1917AAE6000EC1B1 /* trofeuCorpoHumano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeuCorpoHumano.png; sourceTree = "<group>"; };
+		4059A14D1917AAE6000EC1B1 /* trofeuEnergiaSustentavel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeuEnergiaSustentavel.png; sourceTree = "<group>"; };
+		4059A14E1917AAE6000EC1B1 /* trofeuPlanta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeuPlanta.png; sourceTree = "<group>"; };
+		4059A15F1917D96D000EC1B1 /* fundoPerguntas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundoPerguntas.png; sourceTree = "<group>"; };
+		406249EE191599C90029EB63 /* CenaQuiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenaQuiz.h; sourceTree = "<group>"; };
+		406249EF191599C90029EB63 /* CenaQuiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenaQuiz.m; sourceTree = "<group>"; };
+		40A10CED1914641800C5DF1E /* CenaMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenaMenu.h; sourceTree = "<group>"; };
+		40A10CEE1914641800C5DF1E /* CenaMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenaMenu.m; sourceTree = "<group>"; };
+		40A10D0319149CC300C5DF1E /* CenaTrofeus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenaTrofeus.h; sourceTree = "<group>"; };
+		40A10D0419149CC300C5DF1E /* CenaTrofeus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenaTrofeus.m; sourceTree = "<group>"; };
+		40AC38231924EA4800D1E772 /* opcaoImageEscolhida.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opcaoImageEscolhida.png; sourceTree = "<group>"; };
+		40AC382A192690F300D1E772 /* opcaoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opcaoImage.png; sourceTree = "<group>"; };
+		40AC38AE192B8F9400D1E772 /* opcaoImageWrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opcaoImageWrong.png; sourceTree = "<group>"; };
+		40BEAB5C19192D22006DB4AB /* salaTrofeus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salaTrofeus.png; sourceTree = "<group>"; };
+		40BEAB6A191D1D2C006DB4AB /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		40BEAB6C191D1D31006DB4AB /* fundoMapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundoMapa.png; sourceTree = "<group>"; };
+		40BEAB6E19210158006DB4AB /* botaoRadioSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaoRadioSelect.png; sourceTree = "<group>"; };
+		40BEAB6F19210158006DB4AB /* opcaoRadio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opcaoRadio.png; sourceTree = "<group>"; };
+		40BEAB74192101C7006DB4AB /* botaoAjustes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaoAjustes.png; sourceTree = "<group>"; };
+		40BEAB75192101C7006DB4AB /* botaoJogar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaoJogar.png; sourceTree = "<group>"; };
+		40BEAB76192101C7006DB4AB /* botaoTrofeus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaoTrofeus.png; sourceTree = "<group>"; };
+		40BEAB7A192117C7006DB4AB /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		40BEAB7B192117C7006DB4AB /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
+		40BEAB8019224D82006DB4AB /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
+		40BEAB8119224D82006DB4AB /* audioOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audioOff.png; sourceTree = "<group>"; };
+		40BEAB8419224F2E006DB4AB /* fundoAjustes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundoAjustes.png; sourceTree = "<group>"; };
+		40BEAB8619224FEA006DB4AB /* audioOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audioOff.png; sourceTree = "<group>"; };
+		40BEAB8819225CFE006DB4AB /* planetaAstronomia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetaAstronomia.png; sourceTree = "<group>"; };
+		40BEAB9019238A99006DB4AB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		40BEAB9219238A9E006DB4AB /* starPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starPoint.png; sourceTree = "<group>"; };
+		40BEAB941923AB3A006DB4AB /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		AC0B6D8219210D4A000B8BE4 /* Trofeus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trofeus.h; sourceTree = "<group>"; };
+		AC0B6D8319210D4A000B8BE4 /* Trofeus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trofeus.m; sourceTree = "<group>"; };
+		AC0B6D8919223CAB000B8BE4 /* pontos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pontos.png; sourceTree = "<group>"; };
+		AC0B6D8D1922403D000B8BE4 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		AC0B6D90192241AA000B8BE4 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		AC0B6D92192241AF000B8BE4 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AC0B6D94192241B7000B8BE4 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		AC0B6D95192241B7000B8BE4 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		AC0B6D96192241B7000B8BE4 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		AC0B6D9A1922423C000B8BE4 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		AC0B6D9B1922423C000B8BE4 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		AC0B6D9C1922423C000B8BE4 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		AC0B6D9D1922423C000B8BE4 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		AC0B6DAA19238C13000B8BE4 /* textoAquecimentoGlobal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textoAquecimentoGlobal.png; sourceTree = "<group>"; };
+		AC0B6DAC19238CDD000B8BE4 /* textoCorpoHumano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textoCorpoHumano.png; sourceTree = "<group>"; };
+		AC0B6DB019238E38000B8BE4 /* textoContinente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textoContinente.png; sourceTree = "<group>"; };
+		AC0B6DB219238EFB000B8BE4 /* textoSustentabilidade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textoSustentabilidade.png; sourceTree = "<group>"; };
+		AC0B6DB419238F50000B8BE4 /* textoBiodiversidade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textoBiodiversidade.png; sourceTree = "<group>"; };
+		AC0B6DB619238F80000B8BE4 /* textoAstronomia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textoAstronomia.png; sourceTree = "<group>"; };
+		AC0B6DB819238FD4000B8BE4 /* textoPlanta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textoPlanta.png; sourceTree = "<group>"; };
+		AC0B6DBA1923902B000B8BE4 /* textoAgua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textoAgua.png; sourceTree = "<group>"; };
+		AC0B6DC019239275000B8BE4 /* fundoMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundoMenu.png; sourceTree = "<group>"; };
+		AC27B907192394CC00BC12E2 /* voltar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voltar.png; sourceTree = "<group>"; };
+		AC27B90919239A6B00BC12E2 /* escolhaMundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = escolhaMundo.png; sourceTree = "<group>"; };
+		AC27B90B19239E1200BC12E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AC27B90D1923A24B00BC12E2 /* SingleTrofeus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTrofeus.h; sourceTree = "<group>"; };
+		AC27B90E1923A24B00BC12E2 /* SingleTrofeus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTrofeus.m; sourceTree = "<group>"; };
+		AC5E8EEC1917AEBD007F78C6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC5E8EEF1917B247007F78C6 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		AC5E8EF11917B6BF007F78C6 /* Perguntas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perguntas.h; sourceTree = "<group>"; };
+		AC5E8EF21917B6BF007F78C6 /* Perguntas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Perguntas.m; sourceTree = "<group>"; };
+		AC5E8EF51918FD20007F78C6 /* planetaPlanta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetaPlanta.png; sourceTree = "<group>"; };
+		AC5E8EF719190142007F78C6 /* fundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundo.png; sourceTree = "<group>"; };
+		ACF69020191BAF090052D3AE /* Certo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Certo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE40F741907D6BB00D69BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5E8EED1917AEBD007F78C6 /* CoreData.framework in Frameworks */,
+				1EE40F7D1907D6BB00D69BD4 /* CoreGraphics.framework in Frameworks */,
+				1EE40F7F1907D6BB00D69BD4 /* UIKit.framework in Frameworks */,
+				1EE40F811907D6BB00D69BD4 /* SpriteKit.framework in Frameworks */,
+				1EE40F7B1907D6BB00D69BD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE40F9C1907D6BB00D69BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE40FA11907D6BB00D69BD4 /* XCTest.framework in Frameworks */,
+				1EE40FA31907D6BB00D69BD4 /* UIKit.framework in Frameworks */,
+				1EE40FA21907D6BB00D69BD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE40F6E1907D6BB00D69BD4 = {
+			isa = PBXGroup;
+			children = (
+				4055F271192F8B3B00D79721 /* Localizable.strings */,
+				1EE40F821907D6BB00D69BD4 /* MiniChallenge2 */,
+				1EE40F791907D6BB00D69BD4 /* Frameworks */,
+				1EE40F781907D6BB00D69BD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EE40F781907D6BB00D69BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE40F771907D6BB00D69BD4 /* MiniChallenge2.app */,
+				1EE40F9F1907D6BB00D69BD4 /* MiniChallenge2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EE40F791907D6BB00D69BD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC27B90B19239E1200BC12E2 /* AVFoundation.framework */,
+				AC5E8EEC1917AEBD007F78C6 /* CoreData.framework */,
+				1EE40F7A1907D6BB00D69BD4 /* Foundation.framework */,
+				1EE40F7C1907D6BB00D69BD4 /* CoreGraphics.framework */,
+				1EE40F7E1907D6BB00D69BD4 /* UIKit.framework */,
+				1EE40F801907D6BB00D69BD4 /* SpriteKit.framework */,
+				1EE40FA01907D6BB00D69BD4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EE40F821907D6BB00D69BD4 /* MiniChallenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				1EE40FB8190A80ED00D69BD4 /* iPad */,
+				1EE40F8B1907D6BB00D69BD4 /* AppDelegate.h */,
+				1EE40F8C1907D6BB00D69BD4 /* AppDelegate.m */,
+				AC5E8EEE1917B247007F78C6 /* CoreData.xcdatamodeld */,
+				1EE40F911907D6BB00D69BD4 /* ViewController.h */,
+				1EE40F921907D6BB00D69BD4 /* ViewController.m */,
+				1EE40F941907D6BB00D69BD4 /* MyScene.h */,
+				1EE40F951907D6BB00D69BD4 /* MyScene.m */,
+				40A10CED1914641800C5DF1E /* CenaMenu.h */,
+				40A10CEE1914641800C5DF1E /* CenaMenu.m */,
+				406249EE191599C90029EB63 /* CenaQuiz.h */,
+				406249EF191599C90029EB63 /* CenaQuiz.m */,
+				40A10D0319149CC300C5DF1E /* CenaTrofeus.h */,
+				40A10D0419149CC300C5DF1E /* CenaTrofeus.m */,
+				1E2DE5A019210C28009B2F4A /* Ajuste.h */,
+				1E2DE5A119210C28009B2F4A /* Ajuste.m */,
+				AC5E8EF41917B6CC007F78C6 /* Model */,
+				40A10CF019149B9200C5DF1E /* imagens */,
+				AC0B6DA419225E86000B8BE4 /* Sons */,
+				1EE40F991907D6BB00D69BD4 /* Images.xcassets */,
+				1EE40F831907D6BB00D69BD4 /* Supporting Files */,
+			);
+			path = MiniChallenge2;
+			sourceTree = "<group>";
+		};
+		1EE40F831907D6BB00D69BD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EE40F841907D6BB00D69BD4 /* MiniChallenge2-Info.plist */,
+				1EE40F881907D6BB00D69BD4 /* main.m */,
+				1EE40F8A1907D6BB00D69BD4 /* MiniChallenge2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EE40FB8190A80ED00D69BD4 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		40A10CF019149B9200C5DF1E /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B6DA719238B25000B8BE4 /* Textos */,
+				AC0B6D8F192240E9000B8BE4 /* Pontos */,
+				40A10CF219149BEA00C5DF1E /* Trofeus */,
+				40A10CF119149BD100C5DF1E /* Planetas */,
+				40BEAB8119224D82006DB4AB /* audioOff.png */,
+				40BEAB6C191D1D31006DB4AB /* fundoMapa.png */,
+				40BEAB8019224D82006DB4AB /* audio.png */,
+				40BEAB9019238A99006DB4AB /* logo.png */,
+				AC27B90919239A6B00BC12E2 /* escolhaMundo.png */,
+				40AC38AE192B8F9400D1E772 /* opcaoImageWrong.png */,
+				40AC382A192690F300D1E772 /* opcaoImage.png */,
+				40AC38231924EA4800D1E772 /* opcaoImageEscolhida.png */,
+				AC27B907192394CC00BC12E2 /* voltar.png */,
+				40BEAB8419224F2E006DB4AB /* fundoAjustes.png */,
+				AC0B6DC019239275000B8BE4 /* fundoMenu.png */,
+				40BEAB9219238A9E006DB4AB /* starPoint.png */,
+				40BEAB8619224FEA006DB4AB /* audioOff.png */,
+				40BEAB7A192117C7006DB4AB /* star.png */,
+				40BEAB7B192117C7006DB4AB /* star2.png */,
+				40BEAB6E19210158006DB4AB /* botaoRadioSelect.png */,
+				40BEAB6F19210158006DB4AB /* opcaoRadio.png */,
+				40BEAB6A191D1D2C006DB4AB /* avatar.png */,
+				ACF69020191BAF090052D3AE /* Certo.png */,
+				AC5E8EF719190142007F78C6 /* fundo.png */,
+				4059A15F1917D96D000EC1B1 /* fundoPerguntas.png */,
+				4059A1451917AA29000EC1B1 /* voltar.gif */,
+				AC27B9131923AB8600BC12E2 /* Outros */,
+			);
+			name = imagens;
+			sourceTree = "<group>";
+		};
+		40A10CF119149BD100C5DF1E /* Planetas */ = {
+			isa = PBXGroup;
+			children = (
+				40BEAB8819225CFE006DB4AB /* planetaAstronomia.png */,
+				AC5E8EF51918FD20007F78C6 /* planetaPlanta.png */,
+				1EC4BFDB1920E6E600D76098 /* planetaBiodivesidade.png */,
+				1EC4BFDC1920E6E600D76098 /* planetaContinente.png */,
+				1EC4BFE31920E71F00D76098 /* mundoAquecimento.png */,
+				1EC4BFDD1920E6E600D76098 /* planetaHumano3.png */,
+				1EC4BFDE1920E6E600D76098 /* planetaSustentavel2.png */,
+				1EC4BFD91920E6D600D76098 /* planetaAgua.png */,
+			);
+			name = Planetas;
+			sourceTree = "<group>";
+		};
+		40A10CF219149BEA00C5DF1E /* Trofeus */ = {
+			isa = PBXGroup;
+			children = (
+				4059A1471917AAE6000EC1B1 /* trofeuAgua.png */,
+				4059A1431917A9FD000EC1B1 /* estanteTrofeus.png */,
+				40BEAB5C19192D22006DB4AB /* salaTrofeus.png */,
+				40BEAB76192101C7006DB4AB /* botaoTrofeus.png */,
+				4059A1481917AAE6000EC1B1 /* trofeuAquecimentoGlobal.png */,
+				4059A1491917AAE6000EC1B1 /* trofeuAstronomia.png */,
+				4059A14A1917AAE6000EC1B1 /* trofeuBiodiversidade.png */,
+				4059A14B1917AAE6000EC1B1 /* trofeuContinentes.png */,
+				4059A14C1917AAE6000EC1B1 /* trofeuCorpoHumano.png */,
+				4059A14D1917AAE6000EC1B1 /* trofeuEnergiaSustentavel.png */,
+				4059A14E1917AAE6000EC1B1 /* trofeuPlanta.png */,
+			);
+			name = Trofeus;
+			sourceTree = "<group>";
+		};
+		AC0B6D8F192240E9000B8BE4 /* Pontos */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B6D8D1922403D000B8BE4 /* 0.png */,
+				AC0B6D90192241AA000B8BE4 /* 1.png */,
+				AC0B6D92192241AF000B8BE4 /* 2.png */,
+				AC0B6D94192241B7000B8BE4 /* 3.png */,
+				AC0B6D95192241B7000B8BE4 /* 4.png */,
+				AC0B6D96192241B7000B8BE4 /* 5.png */,
+				AC0B6D9A1922423C000B8BE4 /* 6.png */,
+				AC0B6D9B1922423C000B8BE4 /* 7.png */,
+				40BEAB941923AB3A006DB4AB /* 10.png */,
+				AC0B6D9C1922423C000B8BE4 /* 8.png */,
+				AC0B6D9D1922423C000B8BE4 /* 9.png */,
+			);
+			name = Pontos;
+			sourceTree = "<group>";
+		};
+		AC0B6DA419225E86000B8BE4 /* Sons */ = {
+			isa = PBXGroup;
+			children = (
+				1E2DE5A319224263009B2F4A /* erro.mp3 */,
+				1E2DE5A519224309009B2F4A /* kids.mp3 */,
+				1E2DE5A719224754009B2F4A /* aplausos.mp3 */,
+				1EC4BFE5192104F600D76098 /* tema.mp3 */,
+			);
+			name = Sons;
+			sourceTree = "<group>";
+		};
+		AC0B6DA719238B25000B8BE4 /* Textos */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B6DB819238FD4000B8BE4 /* textoPlanta.png */,
+				AC0B6DB219238EFB000B8BE4 /* textoSustentabilidade.png */,
+				AC0B6DAC19238CDD000B8BE4 /* textoCorpoHumano.png */,
+				AC0B6DB019238E38000B8BE4 /* textoContinente.png */,
+				AC0B6DBA1923902B000B8BE4 /* textoAgua.png */,
+				AC0B6DB619238F80000B8BE4 /* textoAstronomia.png */,
+				AC0B6DB419238F50000B8BE4 /* textoBiodiversidade.png */,
+				AC0B6DAA19238C13000B8BE4 /* textoAquecimentoGlobal.png */,
+				40BEAB74192101C7006DB4AB /* botaoAjustes.png */,
+				40BEAB75192101C7006DB4AB /* botaoJogar.png */,
+				40BEAB76192101C7006DB4AB /* botaoTrofeus.png */,
+				AC0B6D8919223CAB000B8BE4 /* pontos.png */,
+			);
+			name = Textos;
+			sourceTree = "<group>";
+		};
+		AC27B9131923AB8600BC12E2 /* Outros */ = {
+			isa = PBXGroup;
+			children = (
+				40BEAB8119224D82006DB4AB /* audioOff.png */,
+				40BEAB6C191D1D31006DB4AB /* fundoMapa.png */,
+				40BEAB8019224D82006DB4AB /* audio.png */,
+				40BEAB9019238A99006DB4AB /* logo.png */,
+				AC27B90919239A6B00BC12E2 /* escolhaMundo.png */,
+				AC27B907192394CC00BC12E2 /* voltar.png */,
+				40BEAB8419224F2E006DB4AB /* fundoAjustes.png */,
+				AC0B6DC019239275000B8BE4 /* fundoMenu.png */,
+				40BEAB9219238A9E006DB4AB /* starPoint.png */,
+				40BEAB8619224FEA006DB4AB /* audioOff.png */,
+				40BEAB7A192117C7006DB4AB /* star.png */,
+				40BEAB7B192117C7006DB4AB /* star2.png */,
+				40BEAB6E19210158006DB4AB /* botaoRadioSelect.png */,
+				40BEAB6F19210158006DB4AB /* opcaoRadio.png */,
+				40BEAB6A191D1D2C006DB4AB /* avatar.png */,
+				ACF69020191BAF090052D3AE /* Certo.png */,
+				AC5E8EF719190142007F78C6 /* fundo.png */,
+				4059A15F1917D96D000EC1B1 /* fundoPerguntas.png */,
+				4059A1451917AA29000EC1B1 /* voltar.gif */,
+			);
+			name = Outros;
+			sourceTree = "<group>";
+		};
+		AC5E8EF41917B6CC007F78C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC5E8EF11917B6BF007F78C6 /* Perguntas.h */,
+				AC5E8EF21917B6BF007F78C6 /* Perguntas.m */,
+				AC0B6D8219210D4A000B8BE4 /* Trofeus.h */,
+				AC0B6D8319210D4A000B8BE4 /* Trofeus.m */,
+				AC27B90D1923A24B00BC12E2 /* SingleTrofeus.h */,
+				AC27B90E1923A24B00BC12E2 /* SingleTrofeus.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE40F761907D6BB00D69BD4 /* MiniChallenge2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE40FB01907D6BB00D69BD4 /* Build configuration list for PBXNativeTarget "MiniChallenge2" */;
+			buildPhases = (
+				1EE40F731907D6BB00D69BD4 /* Sources */,
+				1EE40F741907D6BB00D69BD4 /* Frameworks */,
+				1EE40F751907D6BB00D69BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniChallenge2;
+			productName = MiniChallenge2;
+			productReference = 1EE40F771907D6BB00D69BD4 /* MiniChallenge2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EE40F9E1907D6BB00D69BD4 /* MiniChallenge2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE40FB31907D6BB00D69BD4 /* Build configuration list for PBXNativeTarget "MiniChallenge2Tests" */;
+			buildPhases = (
+				1EE40F9B1907D6BB00D69BD4 /* Sources */,
+				1EE40F9C1907D6BB00D69BD4 /* Frameworks */,
+				1EE40F9D1907D6BB00D69BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EE40FA51907D6BB00D69BD4 /* PBXTargetDependency */,
+			);
+			name = MiniChallenge2Tests;
+			productName = MiniChallenge2Tests;
+			productReference = 1EE40F9F1907D6BB00D69BD4 /* MiniChallenge2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EE40F6F1907D6BB00D69BD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RENANSANTOSSOARES;
+				TargetAttributes = {
+					1EE40F761907D6BB00D69BD4 = {
+						DevelopmentTeam = Z33726G6B5;
+					};
+					1EE40F9E1907D6BB00D69BD4 = {
+						TestTargetID = 1EE40F761907D6BB00D69BD4;
+					};
+				};
+			};
+			buildConfigurationList = 1EE40F721907D6BB00D69BD4 /* Build configuration list for PBXProject "MiniChallenge2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pt,
+			);
+			mainGroup = 1EE40F6E1907D6BB00D69BD4;
+			productRefGroup = 1EE40F781907D6BB00D69BD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE40F761907D6BB00D69BD4 /* MiniChallenge2 */,
+				1EE40F9E1907D6BB00D69BD4 /* MiniChallenge2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE40F751907D6BB00D69BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC4BFE21920E6E600D76098 /* planetaSustentavel2.png in Resources */,
+				4059A1541917AAE6000EC1B1 /* trofeuCorpoHumano.png in Resources */,
+				40BEAB9119238A99006DB4AB /* logo.png in Resources */,
+				4059A14F1917AAE6000EC1B1 /* trofeuAgua.png in Resources */,
+				AC0B6D9F1922423C000B8BE4 /* 7.png in Resources */,
+				AC27B90A19239A6B00BC12E2 /* escolhaMundo.png in Resources */,
+				AC0B6DB719238F80000B8BE4 /* textoAstronomia.png in Resources */,
+				AC0B6D98192241B7000B8BE4 /* 4.png in Resources */,
+				40BEAB9319238A9E006DB4AB /* starPoint.png in Resources */,
+				AC0B6DA3192242C9000B8BE4 /* (null) in Resources */,
+				40AC382B192690F300D1E772 /* opcaoImage.png in Resources */,
+				40BEAB8319224D82006DB4AB /* audioOff.png in Resources */,
+				1EC4BFDA1920E6D600D76098 /* planetaAgua.png in Resources */,
+				AC0B6D97192241B7000B8BE4 /* 3.png in Resources */,
+				1EC4BFDF1920E6E600D76098 /* planetaBiodivesidade.png in Resources */,
+				40AC38AF192B8F9400D1E772 /* opcaoImageWrong.png in Resources */,
+				1EC4BFE11920E6E600D76098 /* planetaHumano3.png in Resources */,
+				4059A1441917A9FD000EC1B1 /* estanteTrofeus.png in Resources */,
+				1EE40F9A1907D6BB00D69BD4 /* Images.xcassets in Resources */,
+				40BEAB7C192117C7006DB4AB /* star.png in Resources */,
+				AC0B6D93192241AF000B8BE4 /* 2.png in Resources */,
+				AC0B6D91192241AA000B8BE4 /* 1.png in Resources */,
+				AC0B6DB119238E38000B8BE4 /* textoContinente.png in Resources */,
+				40BEAB78192101C7006DB4AB /* botaoJogar.png in Resources */,
+				ACF69021191BAF090052D3AE /* Certo.png in Resources */,
+				4059A1511917AAE6000EC1B1 /* trofeuAstronomia.png in Resources */,
+				AC5E8EF819190142007F78C6 /* fundo.png in Resources */,
+				40BEAB6B191D1D2C006DB4AB /* avatar.png in Resources */,
+				40BEAB5D19192D22006DB4AB /* salaTrofeus.png in Resources */,
+				1E2DE5A419224263009B2F4A /* erro.mp3 in Resources */,
+				AC5E8EF61918FD20007F78C6 /* planetaPlanta.png in Resources */,
+				AC0B6D99192241B7000B8BE4 /* 5.png in Resources */,
+				4059A1561917AAE6000EC1B1 /* trofeuPlanta.png in Resources */,
+				40BEAB8719224FEA006DB4AB /* audioOff.png in Resources */,
+				1E2DE5A819224754009B2F4A /* aplausos.mp3 in Resources */,
+				4059A1531917AAE6000EC1B1 /* trofeuContinentes.png in Resources */,
+				40BEAB8219224D82006DB4AB /* audio.png in Resources */,
+				AC0B6DBB1923902B000B8BE4 /* textoAgua.png in Resources */,
+				1EC4BFE01920E6E600D76098 /* planetaContinente.png in Resources */,
+				40BEAB6D191D1D31006DB4AB /* fundoMapa.png in Resources */,
+				4059A1501917AAE6000EC1B1 /* trofeuAquecimentoGlobal.png in Resources */,
+				AC0B6DAB19238C13000B8BE4 /* textoAquecimentoGlobal.png in Resources */,
+				AC0B6DB319238EFB000B8BE4 /* textoSustentabilidade.png in Resources */,
+				40BEAB7019210158006DB4AB /* botaoRadioSelect.png in Resources */,
+				AC0B6DAD19238CDD000B8BE4 /* textoCorpoHumano.png in Resources */,
+				4059A1601917D96D000EC1B1 /* fundoPerguntas.png in Resources */,
+				40BEAB7119210158006DB4AB /* opcaoRadio.png in Resources */,
+				AC0B6DA11922423C000B8BE4 /* 9.png in Resources */,
+				4059A1551917AAE6000EC1B1 /* trofeuEnergiaSustentavel.png in Resources */,
+				1E2DE5A619224309009B2F4A /* kids.mp3 in Resources */,
+				40BEAB951923AB3A006DB4AB /* 10.png in Resources */,
+				1EC4BFE41920E71F00D76098 /* mundoAquecimento.png in Resources */,
+				40AC38251924EA4800D1E772 /* opcaoImageEscolhida.png in Resources */,
+				AC0B6DB519238F50000B8BE4 /* textoBiodiversidade.png in Resources */,
+				4059A1521917AAE6000EC1B1 /* trofeuBiodiversidade.png in Resources */,
+				AC0B6DC119239275000B8BE4 /* fundoMenu.png in Resources */,
+				40BEAB8919225CFE006DB4AB /* planetaAstronomia.png in Resources */,
+				4059A1461917AA29000EC1B1 /* voltar.gif in Resources */,
+				40BEAB77192101C7006DB4AB /* botaoAjustes.png in Resources */,
+				40BEAB79192101C7006DB4AB /* botaoTrofeus.png in Resources */,
+				40BEAB8519224F2E006DB4AB /* fundoAjustes.png in Resources */,
+				AC27B908192394CC00BC12E2 /* voltar.png in Resources */,
+				AC0B6DA01922423C000B8BE4 /* 8.png in Resources */,
+				AC27B9141923B05A00BC12E2 /* tema.mp3 in Resources */,
+				4059A1521917AAE6000EC1B1 /* trofeuBiodiversidade.png in Resources */,
+				AC0B6D8A19223CAB000B8BE4 /* pontos.png in Resources */,
+				AC0B6D8E1922403D000B8BE4 /* 0.png in Resources */,
+				4059A1461917AA29000EC1B1 /* voltar.gif in Resources */,
+				AC0B6DB919238FD4000B8BE4 /* textoPlanta.png in Resources */,
+				4055F273192F8B3B00D79721 /* Localizable.strings in Resources */,
+				40BEAB77192101C7006DB4AB /* botaoAjustes.png in Resources */,
+				40BEAB79192101C7006DB4AB /* botaoTrofeus.png in Resources */,
+				AC0B6D9E1922423C000B8BE4 /* 6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE40F9D1907D6BB00D69BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE40F731907D6BB00D69BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC27B90F1923A24B00BC12E2 /* SingleTrofeus.m in Sources */,
+				AC0B6D8419210D4A000B8BE4 /* Trofeus.m in Sources */,
+				AC5E8EF01917B247007F78C6 /* CoreData.xcdatamodeld in Sources */,
+				1EE40F961907D6BB00D69BD4 /* MyScene.m in Sources */,
+				1EE40F931907D6BB00D69BD4 /* ViewController.m in Sources */,
+				40A10CEF1914641800C5DF1E /* CenaMenu.m in Sources */,
+				AC5E8EF31917B6BF007F78C6 /* Perguntas.m in Sources */,
+				1E2DE5A219210C28009B2F4A /* Ajuste.m in Sources */,
+				1EE40F8D1907D6BB00D69BD4 /* AppDelegate.m in Sources */,
+				406249F0191599C90029EB63 /* CenaQuiz.m in Sources */,
+				1EE40F891907D6BB00D69BD4 /* main.m in Sources */,
+				40A10D0519149CC300C5DF1E /* CenaTrofeus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EE40F9B1907D6BB00D69BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EE40FA51907D6BB00D69BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EE40F761907D6BB00D69BD4 /* MiniChallenge2 */;
+			targetProxy = 1EE40FA41907D6BB00D69BD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4055F271192F8B3B00D79721 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4055F272192F8B3B00D79721 /* en */,
+				4055F274192F8B4C00D79721 /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EE40FAE1907D6BB00D69BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EE40FAF1907D6BB00D69BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE40FB11907D6BB00D69BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniChallenge2/MiniChallenge2-Prefix.pch";
+				INFOPLIST_FILE = "MiniChallenge2/MiniChallenge2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1EE40FB21907D6BB00D69BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniChallenge2/MiniChallenge2-Prefix.pch";
+				INFOPLIST_FILE = "MiniChallenge2/MiniChallenge2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1EE40FB41907D6BB00D69BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiniChallenge2.app/MiniChallenge2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniChallenge2/MiniChallenge2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MiniChallenge2Tests/MiniChallenge2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1EE40FB51907D6BB00D69BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiniChallenge2.app/MiniChallenge2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniChallenge2/MiniChallenge2-Prefix.pch";
+				INFOPLIST_FILE = "MiniChallenge2Tests/MiniChallenge2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE40F721907D6BB00D69BD4 /* Build configuration list for PBXProject "MiniChallenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE40FAE1907D6BB00D69BD4 /* Debug */,
+				1EE40FAF1907D6BB00D69BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE40FB01907D6BB00D69BD4 /* Build configuration list for PBXNativeTarget "MiniChallenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE40FB11907D6BB00D69BD4 /* Debug */,
+				1EE40FB21907D6BB00D69BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE40FB31907D6BB00D69BD4 /* Build configuration list for PBXNativeTarget "MiniChallenge2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE40FB41907D6BB00D69BD4 /* Debug */,
+				1EE40FB51907D6BB00D69BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC5E8EEE1917B247007F78C6 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC5E8EEF1917B247007F78C6 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = AC5E8EEF1917B247007F78C6 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1EE40F6F1907D6BB00D69BD4 /* Project object */;
+}

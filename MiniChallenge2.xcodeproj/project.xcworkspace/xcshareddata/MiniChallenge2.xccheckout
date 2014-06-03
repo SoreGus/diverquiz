@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3D4AFACC-2D2D-46FB-862E-04B757251C8C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MiniChallenge2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>87B529DC-7747-436E-B524-346AF2E2AC9C</key>
+		<string>https://bitbucket.org/joaquimpfilho/sleeping.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MiniChallenge2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>87B529DC-7747-436E-B524-346AF2E2AC9C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/joaquimpfilho/sleeping.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>87B529DC-7747-436E-B524-346AF2E2AC9C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87B529DC-7747-436E-B524-346AF2E2AC9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sleeping</string>
+		</dict>
+	</array>
+</dict>
+</plist>

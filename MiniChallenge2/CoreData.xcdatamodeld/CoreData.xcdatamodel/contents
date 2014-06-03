@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Perguntas" syncable="YES">
+        <attribute name="alternativa1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternativa2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternativa3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternativa4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="assunto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pergunta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resposta" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Trofeus" syncable="YES">
+        <attribute name="nomeTrofeu" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Perguntas" positionX="-54" positionY="-135" width="128" height="148"/>
+        <element name="Trofeus" positionX="-54" positionY="-81" width="128" height="60"/>
+    </elements>
+</model>
